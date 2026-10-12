@@ -1,0 +1,37 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 364px;
+    margin:8px;
+    margin-top: 64px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.table-of-contents {
+    position:sticky;
+    top:0px;
+    height: fit-content;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+article {
+    flex-grow: 1;
+}
